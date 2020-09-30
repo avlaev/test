@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedCodeKotlinEnum, SharedCodeCurrencyEnum, SharedCodeKtor_client_coreHttpClient, SharedCodeIcard, SharedCodePurchasePresenter, SharedCodeRefundPresenter, SharedCodeStoreCardPresenter, SharedCodeUpdateCardPresenter, SharedCodePresenterCoroutineScope, SharedCodeBaseResponseModel, SharedCodeKotlinThrowable, SharedCodeBasePresenter, SharedCodePurchaseUseCase, SharedCodeIPGPurchaseModel, SharedCodeTransactionRefModel, SharedCodeRefundUseCase, SharedCodeIPGRefundModel, SharedCodeStoreCardUseCase, SharedCodeIPGStoreCardModel, SharedCodeStoredCardModel, SharedCodeStoredCardUpdateUseCase, SharedCodeIPGStoredCardUpdate, SharedCodeBaseRequestModel, SharedCodeKotlinx_serialization_runtimeJson, SharedCodeBaseApi, SharedCodeBaseUseCase, SharedCodePurchaseApi, SharedCodeRefundApi, SharedCodeStoreCardApi, SharedCodeBaseRequestParameters, SharedCodeCartItemModel, SharedCodeEither, SharedCodeEitherError, SharedCodeKotlinNothing, SharedCodeEitherFailure, SharedCodeEitherSuccess, SharedCodeKodein_diDIModule, SharedCodeKtor_client_coreHttpClientConfig, SharedCodeKotlinx_coroutines_coreCoroutineDispatcher, SharedCodeKtor_client_coreHttpClientEngineConfig, SharedCodeKtor_client_coreHttpReceivePipeline, SharedCodeKtor_client_coreHttpRequestPipeline, SharedCodeKtor_client_coreHttpResponsePipeline, SharedCodeKtor_client_coreHttpSendPipeline, SharedCodeKotlinArray, SharedCodeKotlinx_serialization_runtimeJsonBuilder, SharedCodeKotlinx_serialization_runtimeJsonConfiguration, SharedCodeKotlinx_serialization_runtimeJsonElement, SharedCodeKtor_utilsAttributeKey, SharedCodeKotlinAbstractCoroutineContextElement, SharedCodeKtor_client_coreProxyConfig, SharedCodeKtor_utilsPipelinePhase, SharedCodeKtor_utilsPipeline, SharedCodeKotlinx_serialization_runtimeUpdateMode, SharedCodeKotlinx_serialization_runtimeJsonNull, SharedCodeKotlinx_serialization_runtimeJsonPrimitive, SharedCodeKotlinx_serialization_runtimeSerialKind, SharedCodeKodein_typeTypeToken, SharedCodeKtor_httpUrl, SharedCodeKodein_diDIKey, SharedCodeKodein_diScopeRegistry, SharedCodeKtor_httpURLProtocol, SharedCodeKodein_diDITrigger, SharedCodeKodein_diReference, SharedCodeKotlinTriple, SharedCodeKodein_diSearchSpecs, SharedCodeKodein_diDIDefinition, SharedCodeKodein_diDIDefining;
+@class SharedCodeKotlinEnum, SharedCodeCurrencyEnum, SharedCodeKtor_client_coreHttpClient, SharedCodeCardPresenter, SharedCodeIcard, SharedCodePurchasePresenter, SharedCodeRefundPresenter, SharedCodeTransactionStatusPresenter, SharedCodePresenterCoroutineScope, SharedCodeBaseResponseModel, SharedCodeKotlinThrowable, SharedCodeStoredCardModel, SharedCodeBasePresenter, SharedCodeStoreCardUseCase, SharedCodeStoredCardUpdateUseCase, SharedCodeIPGStoreCardModel, SharedCodeIPGStoredCardUpdate, SharedCodePurchaseUseCase, SharedCodeIPGPurchaseModel, SharedCodeTransactionRefModel, SharedCodeRefundUseCase, SharedCodeIPGRefundModel, SharedCodeGetTransactionStatusUseCase, SharedCodeTransactionStatusModel, SharedCodeBaseRequestModel, SharedCodeKotlinx_serialization_runtimeJson, SharedCodeBaseApi, SharedCodeIPGTransactionStatusModel, SharedCodeBaseUseCase, SharedCodeTransactionStatusApi, SharedCodePurchaseApi, SharedCodeRefundApi, SharedCodeStoreCardApi, SharedCodeUpdateCardApi, SharedCodeBaseRequestParameters, SharedCodeEither, SharedCodeEitherError, SharedCodeKotlinNothing, SharedCodeEitherFailure, SharedCodeEitherSuccess, SharedCodeCartItemModel, SharedCodeKodein_diDIModule, SharedCodeKtor_client_coreHttpClientConfig, SharedCodeKotlinx_coroutines_coreCoroutineDispatcher, SharedCodeKtor_client_coreHttpClientEngineConfig, SharedCodeKtor_client_coreHttpReceivePipeline, SharedCodeKtor_client_coreHttpRequestPipeline, SharedCodeKtor_client_coreHttpResponsePipeline, SharedCodeKtor_client_coreHttpSendPipeline, SharedCodeKodein_diDITrigger, SharedCodeKotlinArray, SharedCodeKotlinx_serialization_runtimeJsonBuilder, SharedCodeKotlinx_serialization_runtimeJsonConfiguration, SharedCodeKotlinx_serialization_runtimeJsonElement, SharedCodeKtor_utilsAttributeKey, SharedCodeKotlinAbstractCoroutineContextElement, SharedCodeKtor_client_coreProxyConfig, SharedCodeKtor_utilsPipelinePhase, SharedCodeKtor_utilsPipeline, SharedCodeKodein_diDIKey, SharedCodeKodein_typeTypeToken, SharedCodeKotlinx_serialization_runtimeUpdateMode, SharedCodeKotlinx_serialization_runtimeJsonNull, SharedCodeKotlinx_serialization_runtimeJsonPrimitive, SharedCodeKotlinx_serialization_runtimeSerialKind, SharedCodeKtor_httpUrl, SharedCodeKotlinTriple, SharedCodeKodein_diSearchSpecs, SharedCodeKodein_diDIDefinition, SharedCodeKodein_diScopeRegistry, SharedCodeKtor_httpURLProtocol, SharedCodeKodein_diDIDefining, SharedCodeKodein_diReference;
 
-@protocol SharedCodeKotlinComparable, SharedCodeICNativeConnector, SharedCodeKotlinCoroutineContext, SharedCodeKotlinx_coroutines_coreCoroutineScope, SharedCodePurchaseView, SharedCodeBaseView, SharedCodeRefundView, SharedCodeStoreCardView, SharedCodeUpdateCardView, SharedCodeKtor_httpParameters, SharedCodeKotlinx_serialization_runtimeKSerializer, SharedCodeAndroidParcel, SharedCodeKtor_ioCloseable, SharedCodeKtor_client_coreHttpClientEngine, SharedCodeKtor_client_coreHttpClientEngineCapability, SharedCodeKtor_utilsAttributes, SharedCodeKotlinCoroutineContextElement, SharedCodeKotlinCoroutineContextKey, SharedCodeKotlinMapEntry, SharedCodeKtor_utilsStringValues, SharedCodeKotlinx_serialization_runtimeDeserializationStrategy, SharedCodeKotlinx_serialization_runtimeSerializationStrategy, SharedCodeKotlinx_serialization_runtimeSerialModule, SharedCodeKotlinx_serialization_runtimeSerialFormat, SharedCodeKotlinx_serialization_runtimeStringFormat, SharedCodeKotlinx_serialization_runtimeEncoder, SharedCodeKotlinx_serialization_runtimeSerialDescriptor, SharedCodeKotlinx_serialization_runtimeDecoder, SharedCodeKodein_diDIBuilder, SharedCodeKtor_client_coreHttpClientFeature, SharedCodeKotlinContinuation, SharedCodeKotlinContinuationInterceptor, SharedCodeKotlinx_coroutines_coreRunnable, SharedCodeKotlinSuspendFunction2, SharedCodeKotlinIterator, SharedCodeKotlinx_serialization_runtimeSerialModuleCollector, SharedCodeKotlinKClass, SharedCodeKotlinx_serialization_runtimeCompositeEncoder, SharedCodeKotlinAnnotation, SharedCodeKotlinx_serialization_runtimeCompositeDecoder, SharedCodeKodein_diDIBuilderDirectBinder, SharedCodeKodein_diDIBuilderTypeBinder, SharedCodeKodein_diContextTranslator, SharedCodeKodein_diDIBuilderConstantBinder, SharedCodeKodein_diDirectDI, SharedCodeKodein_diDIContainerBuilder, SharedCodeKodein_diDIBindBuilder, SharedCodeKodein_diDIBindBuilderWithContext, SharedCodeKodein_diScope, SharedCodeKodein_diDIBindBuilderWithScope, SharedCodeKotlinFunction, SharedCodeKotlinKDeclarationContainer, SharedCodeKotlinKAnnotatedElement, SharedCodeKotlinKClassifier, SharedCodeKodein_diDIBinding, SharedCodeKodein_diDIContext, SharedCodeKodein_diDIContainer, SharedCodeKodein_diDI, SharedCodeKodein_diDirectDIAware, SharedCodeKodein_diDirectDIBase, SharedCodeKodein_diDIBindingCopier, SharedCodeKodein_diBindingDI, SharedCodeKodein_diBinding, SharedCodeKodein_diDITree, SharedCodeKodein_diDIAware, SharedCodeKodein_diScopeCloseable, SharedCodeKodein_diWithContext, SharedCodeKodein_diSimpleBindingDI, SharedCodeKodein_diExternalSource, SharedCodeKotlinLazy;
+@protocol SharedCodeKotlinComparable, SharedCodeICNativeConnector, SharedCodeKodein_diDI, SharedCodeKotlinCoroutineContext, SharedCodeBaseView, SharedCodeCardDetailsView, SharedCodeKotlinx_coroutines_coreCoroutineScope, SharedCodePurchaseView, SharedCodeRefundView, SharedCodeTransactionStatusView, SharedCodeKtor_httpParameters, SharedCodeKotlinx_serialization_runtimeKSerializer, SharedCodeAndroidParcel, SharedCodeKtor_ioCloseable, SharedCodeKtor_client_coreHttpClientEngine, SharedCodeKtor_client_coreHttpClientEngineCapability, SharedCodeKtor_utilsAttributes, SharedCodeKodein_diDIContainer, SharedCodeKodein_diDIContext, SharedCodeKodein_diDIAware, SharedCodeKotlinCoroutineContextElement, SharedCodeKotlinCoroutineContextKey, SharedCodeKotlinMapEntry, SharedCodeKtor_utilsStringValues, SharedCodeKotlinx_serialization_runtimeDeserializationStrategy, SharedCodeKotlinx_serialization_runtimeSerializationStrategy, SharedCodeKotlinx_serialization_runtimeSerialModule, SharedCodeKotlinx_serialization_runtimeSerialFormat, SharedCodeKotlinx_serialization_runtimeStringFormat, SharedCodeKotlinx_serialization_runtimeEncoder, SharedCodeKotlinx_serialization_runtimeSerialDescriptor, SharedCodeKotlinx_serialization_runtimeDecoder, SharedCodeKodein_diDIBuilder, SharedCodeKtor_client_coreHttpClientFeature, SharedCodeKotlinContinuation, SharedCodeKotlinContinuationInterceptor, SharedCodeKotlinx_coroutines_coreRunnable, SharedCodeKotlinSuspendFunction2, SharedCodeKodein_diDITree, SharedCodeKotlinLazy, SharedCodeKotlinIterator, SharedCodeKotlinx_serialization_runtimeSerialModuleCollector, SharedCodeKotlinKClass, SharedCodeKotlinx_serialization_runtimeCompositeEncoder, SharedCodeKotlinAnnotation, SharedCodeKotlinx_serialization_runtimeCompositeDecoder, SharedCodeKodein_diDIBuilderDirectBinder, SharedCodeKodein_diDIBuilderTypeBinder, SharedCodeKodein_diContextTranslator, SharedCodeKodein_diDIBuilderConstantBinder, SharedCodeKodein_diDirectDI, SharedCodeKodein_diDIContainerBuilder, SharedCodeKodein_diDIBindBuilder, SharedCodeKodein_diDIBindBuilderWithContext, SharedCodeKodein_diScope, SharedCodeKodein_diDIBindBuilderWithScope, SharedCodeKotlinFunction, SharedCodeKodein_diExternalSource, SharedCodeKotlinKDeclarationContainer, SharedCodeKotlinKAnnotatedElement, SharedCodeKotlinKClassifier, SharedCodeKodein_diDIBinding, SharedCodeKodein_diDirectDIAware, SharedCodeKodein_diDirectDIBase, SharedCodeKodein_diBindingDI, SharedCodeKodein_diDIBindingCopier, SharedCodeKodein_diBinding, SharedCodeKodein_diScopeCloseable, SharedCodeKodein_diWithContext, SharedCodeKodein_diSimpleBindingDI;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -166,6 +166,7 @@ __attribute__((swift_name("CurrencyEnum")))
 - (int32_t)compareToOther:(SharedCodeCurrencyEnum *)other __attribute__((swift_name("compareTo(other:)")));
 @property (readonly) NSString *currency __attribute__((swift_name("currency")));
 @property (readonly) NSString *isoCode __attribute__((swift_name("isoCode")));
+@property (readonly) NSString *symbol __attribute__((swift_name("symbol")));
 @end;
 
 __attribute__((swift_name("ICNativeConnector")))
@@ -189,6 +190,7 @@ __attribute__((swift_name("IPGProtocol.Companion")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
+@property (readonly) NSString *DEBUG_HOST __attribute__((swift_name("DEBUG_HOST")));
 @property (readonly) NSString *IPG_VERSION __attribute__((swift_name("IPG_VERSION")));
 @property (readonly) NSString *METHOD_3DS __attribute__((swift_name("METHOD_3DS")));
 @property (readonly) NSString *METHOD_GET_TRANSACTION_STATUS __attribute__((swift_name("METHOD_GET_TRANSACTION_STATUS")));
@@ -197,7 +199,35 @@ __attribute__((swift_name("IPGProtocol.Companion")))
 @property (readonly) NSString *METHOD_REFUND __attribute__((swift_name("METHOD_REFUND")));
 @property (readonly) NSString *METHOD_STORE_CARD __attribute__((swift_name("METHOD_STORE_CARD")));
 @property (readonly) NSString *METHOD_STORE_CARD_UPDATE __attribute__((swift_name("METHOD_STORE_CARD_UPDATE")));
+@property (readonly) NSString *PROD_HOST __attribute__((swift_name("PROD_HOST")));
 @property (readonly) NSString *SDK_VERSION __attribute__((swift_name("SDK_VERSION")));
+@property (readonly) int32_t STATUS_ERROR_DUPLICATED __attribute__((swift_name("STATUS_ERROR_DUPLICATED")));
+@property (readonly) int32_t STATUS_ERROR_EXCEEDED_LIMIT __attribute__((swift_name("STATUS_ERROR_EXCEEDED_LIMIT")));
+@property (readonly) int32_t STATUS_ERROR_EXEECED_ACCOUNT_LIMITS __attribute__((swift_name("STATUS_ERROR_EXEECED_ACCOUNT_LIMITS")));
+@property (readonly) int32_t STATUS_ERROR_INACTIVE_ACCOUNT_IDENTIFIER __attribute__((swift_name("STATUS_ERROR_INACTIVE_ACCOUNT_IDENTIFIER")));
+@property (readonly) int32_t STATUS_ERROR_INACTIVE_MANDATE_REFERENCE __attribute__((swift_name("STATUS_ERROR_INACTIVE_MANDATE_REFERENCE")));
+@property (readonly) int32_t STATUS_ERROR_INVALID_ACCOUNT_IDENTIFIER __attribute__((swift_name("STATUS_ERROR_INVALID_ACCOUNT_IDENTIFIER")));
+@property (readonly) int32_t STATUS_ERROR_INVALID_MANDATE_REFERENCE __attribute__((swift_name("STATUS_ERROR_INVALID_MANDATE_REFERENCE")));
+@property (readonly) int32_t STATUS_ERROR_INVALID_PARAMS __attribute__((swift_name("STATUS_ERROR_INVALID_PARAMS")));
+@property (readonly) int32_t STATUS_ERROR_INVALID_REFERER __attribute__((swift_name("STATUS_ERROR_INVALID_REFERER")));
+@property (readonly) int32_t STATUS_ERROR_INVALID_SID __attribute__((swift_name("STATUS_ERROR_INVALID_SID")));
+@property (readonly) int32_t STATUS_ERROR_IPAY __attribute__((swift_name("STATUS_ERROR_IPAY")));
+@property (readonly) int32_t STATUS_ERROR_MANDATE_ALREADY_REGISTERED __attribute__((swift_name("STATUS_ERROR_MANDATE_ALREADY_REGISTERED")));
+@property (readonly) int32_t STATUS_ERROR_MISSING_REQ_PARAMS __attribute__((swift_name("STATUS_ERROR_MISSING_REQ_PARAMS")));
+@property (readonly) int32_t STATUS_ERROR_NOT_SUFFICIENT_FUNDS __attribute__((swift_name("STATUS_ERROR_NOT_SUFFICIENT_FUNDS")));
+@property (readonly) int32_t STATUS_ERROR_SIGNATURE_FAILED __attribute__((swift_name("STATUS_ERROR_SIGNATURE_FAILED")));
+@property (readonly) int32_t STATUS_ERROR_TRANSACTION_AUTH_FAIL __attribute__((swift_name("STATUS_ERROR_TRANSACTION_AUTH_FAIL")));
+@property (readonly) int32_t STATUS_ERROR_TRANSACTION_NOT_PERMITTED __attribute__((swift_name("STATUS_ERROR_TRANSACTION_NOT_PERMITTED")));
+@property (readonly) int32_t STATUS_ERROR_UNDEFINED_ERROR __attribute__((swift_name("STATUS_ERROR_UNDEFINED_ERROR")));
+@property (readonly) int32_t STATUS_ERROR_UNSUPPORTED_CALL __attribute__((swift_name("STATUS_ERROR_UNSUPPORTED_CALL")));
+@property (readonly) int32_t STATUS_ERROR_WRONG_AMOUNT __attribute__((swift_name("STATUS_ERROR_WRONG_AMOUNT")));
+@property (readonly) int32_t STATUS_INTERNAL_API_ERROR __attribute__((swift_name("STATUS_INTERNAL_API_ERROR")));
+@property (readonly) int32_t STATUS_INTERNAL_COMMUNICATION_ERROR __attribute__((swift_name("STATUS_INTERNAL_COMMUNICATION_ERROR")));
+@property (readonly) int32_t STATUS_INTERNAL_INVALID_PARAMS __attribute__((swift_name("STATUS_INTERNAL_INVALID_PARAMS")));
+@property (readonly) int32_t STATUS_INTERNAL_SDK_NOT_INITIALIZED __attribute__((swift_name("STATUS_INTERNAL_SDK_NOT_INITIALIZED")));
+@property (readonly) int32_t STATUS_INTERNAL_SIGNATURE_FAILED __attribute__((swift_name("STATUS_INTERNAL_SIGNATURE_FAILED")));
+@property (readonly) int32_t STATUS_INTERNAL_TIMEOUT __attribute__((swift_name("STATUS_INTERNAL_TIMEOUT")));
+@property (readonly) int32_t STATUS_SUCCESS __attribute__((swift_name("STATUS_SUCCESS")));
 @property (readonly) NSString *TAG_BACKEND __attribute__((swift_name("TAG_BACKEND")));
 @property (readonly) NSString *TAG_FROM_MOBILE __attribute__((swift_name("TAG_FROM_MOBILE")));
 @property (readonly) NSString *TAG_IPG_VERSION __attribute__((swift_name("TAG_IPG_VERSION")));
@@ -228,36 +258,19 @@ __attribute__((swift_name("ServiceLocator")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)serviceLocator __attribute__((swift_name("init()")));
-- (void)setupServiceLocator __attribute__((swift_name("setupServiceLocator()")));
+- (void)setupCardPresenter __attribute__((swift_name("setupCardPresenter()")));
+- (void)setupGetTransactionPresenter __attribute__((swift_name("setupGetTransactionPresenter()")));
+- (void)setupIcardModel __attribute__((swift_name("setupIcardModel()")));
+- (void)setupKodeinContainer __attribute__((swift_name("setupKodeinContainer()")));
+- (void)setupPurchasePresenter __attribute__((swift_name("setupPurchasePresenter()")));
+- (void)setupRefundPresenter __attribute__((swift_name("setupRefundPresenter()")));
+@property SharedCodeCardPresenter * _Nullable getCardPresenter __attribute__((swift_name("getCardPresenter")));
 @property SharedCodeIcard * _Nullable getIcardModel __attribute__((swift_name("getIcardModel")));
 @property SharedCodePurchasePresenter * _Nullable getPurchasePresenter __attribute__((swift_name("getPurchasePresenter")));
 @property SharedCodeRefundPresenter * _Nullable getRefundPresenter __attribute__((swift_name("getRefundPresenter")));
-@property SharedCodeStoreCardPresenter * _Nullable getStoreCardPresenter __attribute__((swift_name("getStoreCardPresenter")));
-@property SharedCodeUpdateCardPresenter * _Nullable getUpdateCardPresenter __attribute__((swift_name("getUpdateCardPresenter")));
+@property SharedCodeTransactionStatusPresenter * _Nullable getTransactionStatusPresenter __attribute__((swift_name("getTransactionStatusPresenter")));
 @property id<SharedCodeICNativeConnector> _Nullable icNativeConnector __attribute__((swift_name("icNativeConnector")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Utils")))
-@interface SharedCodeUtils : SharedCodeBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Utils.Companion")))
-@interface SharedCodeUtilsCompanion : SharedCodeBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (readonly) NSString *HOST __attribute__((swift_name("HOST")));
-@property (readonly) int32_t STATUS_INTERNAL_API_ERROR __attribute__((swift_name("STATUS_INTERNAL_API_ERROR")));
-@property (readonly) int32_t STATUS_INTERNAL_COMMUNICATION_ERROR __attribute__((swift_name("STATUS_INTERNAL_COMMUNICATION_ERROR")));
-@property (readonly) int32_t STATUS_INTERNAL_INVALID_PARAMS __attribute__((swift_name("STATUS_INTERNAL_INVALID_PARAMS")));
-@property (readonly) int32_t STATUS_INTERNAL_SDK_NOT_INITIALIZED __attribute__((swift_name("STATUS_INTERNAL_SDK_NOT_INITIALIZED")));
-@property (readonly) int32_t STATUS_INTERNAL_SIGNATURE_FAILED __attribute__((swift_name("STATUS_INTERNAL_SIGNATURE_FAILED")));
-@property (readonly) int32_t STATUS_INTERNAL_TIMEOUT __attribute__((swift_name("STATUS_INTERNAL_TIMEOUT")));
-@property (readonly) int32_t STATUS_SUCCESS __attribute__((swift_name("STATUS_SUCCESS")));
+@property id<SharedCodeKodein_diDI> _Nullable kodeinContainer __attribute__((swift_name("kodeinContainer")));
 @end;
 
 __attribute__((swift_name("BasePresenter")))
@@ -277,6 +290,25 @@ __attribute__((swift_name("BaseView")))
 - (void)onErrorResponseModel:(SharedCodeBaseResponseModel *)responseModel __attribute__((swift_name("onError(responseModel:)")));
 - (void)onExceptionThrowable:(SharedCodeKotlinThrowable *)throwable __attribute__((swift_name("onException(throwable:)")));
 - (void)setProgressShow:(BOOL)show __attribute__((swift_name("setProgress(show:)")));
+@end;
+
+__attribute__((swift_name("CardDetailsView")))
+@protocol SharedCodeCardDetailsView <SharedCodeBaseView>
+@required
+- (void)cardStoredStoredCardModel:(SharedCodeStoredCardModel *)storedCardModel __attribute__((swift_name("cardStored(storedCardModel:)")));
+- (void)cardUpdatedStoredCardModel:(SharedCodeStoredCardModel *)storedCardModel __attribute__((swift_name("cardUpdated(storedCardModel:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CardPresenter")))
+@interface SharedCodeCardPresenter : SharedCodeBasePresenter
+- (instancetype)initWithStoreCardUseCase:(SharedCodeStoreCardUseCase *)storeCardUseCase updateCardUseCase:(SharedCodeStoredCardUpdateUseCase *)updateCardUseCase coroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(storeCardUseCase:updateCardUseCase:coroutineContext:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCoroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(coroutineContext:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)attachViewView:(id<SharedCodeCardDetailsView>)view __attribute__((swift_name("attachView(view:)")));
+- (void)onViewAttachedView:(id<SharedCodeCardDetailsView>)view __attribute__((swift_name("onViewAttached(view:)")));
+- (void)storeCardIpgStoreCardModel:(SharedCodeIPGStoreCardModel *)ipgStoreCardModel __attribute__((swift_name("storeCard(ipgStoreCardModel:)")));
+- (void)updateCardIpgStoredCardUpdate:(SharedCodeIPGStoredCardUpdate *)ipgStoredCardUpdate __attribute__((swift_name("updateCard(ipgStoredCardUpdate:)")));
+@property id<SharedCodeCardDetailsView> _Nullable view __attribute__((swift_name("view")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
@@ -328,37 +360,20 @@ __attribute__((swift_name("RefundView")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("StoreCardPresenter")))
-@interface SharedCodeStoreCardPresenter : SharedCodeBasePresenter
-- (instancetype)initWithStoreCardUseCase:(SharedCodeStoreCardUseCase *)storeCardUseCase coroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(storeCardUseCase:coroutineContext:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("TransactionStatusPresenter")))
+@interface SharedCodeTransactionStatusPresenter : SharedCodeBasePresenter
+- (instancetype)initWithGetTransactionStatusUseCase:(SharedCodeGetTransactionStatusUseCase *)getTransactionStatusUseCase coroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(getTransactionStatusUseCase:coroutineContext:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCoroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(coroutineContext:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)attachViewView:(id<SharedCodeStoreCardView>)view __attribute__((swift_name("attachView(view:)")));
-- (void)onViewAttachedView:(id<SharedCodeStoreCardView>)view __attribute__((swift_name("onViewAttached(view:)")));
-- (void)storeCardIpgStoreCardModel:(SharedCodeIPGStoreCardModel *)ipgStoreCardModel __attribute__((swift_name("storeCard(ipgStoreCardModel:)")));
-@property id<SharedCodeStoreCardView> _Nullable view __attribute__((swift_name("view")));
+- (void)attachViewView:(id<SharedCodeTransactionStatusView>)view __attribute__((swift_name("attachView(view:)")));
+- (void)getTransactionStatusOrderId:(NSString *)orderId __attribute__((swift_name("getTransactionStatus(orderId:)")));
+- (void)onViewAttachedView:(id<SharedCodeTransactionStatusView>)view __attribute__((swift_name("onViewAttached(view:)")));
+@property id<SharedCodeTransactionStatusView> _Nullable view __attribute__((swift_name("view")));
 @end;
 
-__attribute__((swift_name("StoreCardView")))
-@protocol SharedCodeStoreCardView <SharedCodeBaseView>
+__attribute__((swift_name("TransactionStatusView")))
+@protocol SharedCodeTransactionStatusView <SharedCodeBaseView>
 @required
-- (void)cardStoredStoredCardModel:(SharedCodeStoredCardModel *)storedCardModel __attribute__((swift_name("cardStored(storedCardModel:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UpdateCardPresenter")))
-@interface SharedCodeUpdateCardPresenter : SharedCodeBasePresenter
-- (instancetype)initWithUpdateCardUseCase:(SharedCodeStoredCardUpdateUseCase *)updateCardUseCase coroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(updateCardUseCase:coroutineContext:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineContext:(id<SharedCodeKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(coroutineContext:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)attachViewView:(id<SharedCodeUpdateCardView>)view __attribute__((swift_name("attachView(view:)")));
-- (void)onViewAttachedView:(id<SharedCodeUpdateCardView>)view __attribute__((swift_name("onViewAttached(view:)")));
-- (void)updateCardIpgStoredCardUpdate:(SharedCodeIPGStoredCardUpdate *)ipgStoredCardUpdate __attribute__((swift_name("updateCard(ipgStoredCardUpdate:)")));
-@property id<SharedCodeUpdateCardView> _Nullable view __attribute__((swift_name("view")));
-@end;
-
-__attribute__((swift_name("UpdateCardView")))
-@protocol SharedCodeUpdateCardView <SharedCodeBaseView>
-@required
-- (void)cardUpdatedStoredCardModel:(SharedCodeStoredCardModel *)storedCardModel __attribute__((swift_name("cardUpdated(storedCardModel:)")));
+- (void)transactionStatusTransactionStatus:(SharedCodeTransactionStatusModel *)transactionStatus __attribute__((swift_name("transactionStatus(transactionStatus:)")));
 @end;
 
 __attribute__((swift_name("AndroidParcel")))
@@ -370,6 +385,7 @@ __attribute__((swift_name("BaseApi")))
 @interface SharedCodeBaseApi : SharedCodeBase
 - (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
 - (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeBaseRequestModel *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeBaseRequestModel *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
 - (SharedCodeBaseResponseModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
 @property (readonly) id<SharedCodeICNativeConnector> _Nullable iCNativeConnector __attribute__((swift_name("iCNativeConnector")));
 @property (readonly) SharedCodeKotlinx_serialization_runtimeJson *json __attribute__((swift_name("json")));
@@ -380,6 +396,7 @@ __attribute__((swift_name("PurchaseApi")))
 @interface SharedCodePurchaseApi : SharedCodeBaseApi
 - (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
 - (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeIPGPurchaseModel *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeIPGPurchaseModel *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
 - (SharedCodeTransactionRefModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
 @end;
 
@@ -388,6 +405,7 @@ __attribute__((swift_name("RefundApi")))
 @interface SharedCodeRefundApi : SharedCodeBaseApi
 - (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
 - (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeIPGRefundModel *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeIPGRefundModel *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
 - (SharedCodeTransactionRefModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
 @end;
 
@@ -396,6 +414,25 @@ __attribute__((swift_name("StoreCardApi")))
 @interface SharedCodeStoreCardApi : SharedCodeBaseApi
 - (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
 - (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeIPGStoreCardModel *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeIPGStoreCardModel *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
+- (SharedCodeStoredCardModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TransactionStatusApi")))
+@interface SharedCodeTransactionStatusApi : SharedCodeBaseApi
+- (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeIPGTransactionStatusModel *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeIPGTransactionStatusModel *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
+- (SharedCodeTransactionStatusModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UpdateCardApi")))
+@interface SharedCodeUpdateCardApi : SharedCodeBaseApi
+- (instancetype)initWithClient:(SharedCodeKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedCodeKtor_httpParameters>)createFormParametersRequestModel:(SharedCodeIPGStoredCardUpdate *)requestModel __attribute__((swift_name("createFormParameters(requestModel:)")));
+- (NSString *)createUrlEncodedParametersRequestModel:(SharedCodeIPGStoredCardUpdate *)requestModel __attribute__((swift_name("createUrlEncodedParameters(requestModel:)")));
 - (SharedCodeStoredCardModel *)processResponseBody:(NSString *)body __attribute__((swift_name("processResponse(body:)")));
 @end;
 
@@ -411,6 +448,14 @@ __attribute__((swift_name("BaseUseCase.None")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)none __attribute__((swift_name("init()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetTransactionStatusUseCase")))
+@interface SharedCodeGetTransactionStatusUseCase : SharedCodeBaseUseCase
+- (instancetype)initWithTransactionStatusApi:(SharedCodeTransactionStatusApi *)transactionStatusApi __attribute__((swift_name("init(transactionStatusApi:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -440,7 +485,7 @@ __attribute__((swift_name("StoreCardUseCase")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StoredCardUpdateUseCase")))
 @interface SharedCodeStoredCardUpdateUseCase : SharedCodeBaseUseCase
-- (instancetype)initWithStoreCardApi:(SharedCodeStoreCardApi *)storeCardApi __attribute__((swift_name("init(storeCardApi:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithUpdateCardApi:(SharedCodeUpdateCardApi *)updateCardApi __attribute__((swift_name("init(updateCardApi:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 @end;
@@ -490,24 +535,14 @@ __attribute__((swift_name("BaseResponseModel")))
 @property NSString *statusMessage __attribute__((swift_name("statusMessage")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CartItemModel")))
 @interface SharedCodeCartItemModel : SharedCodeBase <SharedCodeAndroidParcel>
-- (instancetype)initWithArticle:(NSString * _Nullable)article quantity:(SharedCodeInt * _Nullable)quantity price:(SharedCodeDouble * _Nullable)price amount:(SharedCodeDouble * _Nullable)amount currency:(NSString *)currency __attribute__((swift_name("init(article:quantity:price:amount:currency:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (SharedCodeInt * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (SharedCodeDouble * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (SharedCodeDouble * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (SharedCodeCartItemModel *)doCopyArticle:(NSString * _Nullable)article quantity:(SharedCodeInt * _Nullable)quantity price:(SharedCodeDouble * _Nullable)price amount:(SharedCodeDouble * _Nullable)amount currency:(NSString *)currency __attribute__((swift_name("doCopy(article:quantity:price:amount:currency:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property SharedCodeDouble * _Nullable amount __attribute__((swift_name("amount")));
-@property NSString * _Nullable article __attribute__((swift_name("article")));
+- (instancetype)initWithArticle:(NSString *)article quantity:(int32_t)quantity price:(double)price amount:(double)amount __attribute__((swift_name("init(article:quantity:price:amount:)"))) __attribute__((objc_designated_initializer));
+@property double amount __attribute__((swift_name("amount")));
+@property NSString *article __attribute__((swift_name("article")));
 @property NSString *currency __attribute__((swift_name("currency")));
-@property SharedCodeDouble * _Nullable price __attribute__((swift_name("price")));
-@property SharedCodeInt * _Nullable quantity __attribute__((swift_name("quantity")));
+@property double price __attribute__((swift_name("price")));
+@property int32_t quantity __attribute__((swift_name("quantity")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -563,25 +598,11 @@ __attribute__((swift_name("Either.Success")))
 @property (readonly) id _Nullable success __attribute__((swift_name("success")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("IPGPurchaseModel")))
-@interface SharedCodeIPGPurchaseModel : SharedCodeBaseRequestModel
-- (instancetype)initWithCardItems:(NSArray<SharedCodeCartItemModel *> *)cardItems totalAmount:(double)totalAmount orderId:(int64_t)orderId expiryMonth:(NSString *)expiryMonth expiryYear:(NSString *)expiryYear eci:(NSString *)eci avv:(NSString *)avv xid:(NSString *)xid method:(NSString *)method __attribute__((swift_name("init(cardItems:totalAmount:orderId:expiryMonth:expiryYear:eci:avv:xid:method:)"))) __attribute__((objc_designated_initializer));
+@interface SharedCodeIPGPurchaseModel : SharedCodeBaseRequestModel <SharedCodeAndroidParcel>
+- (instancetype)initWithCardItems:(NSArray<SharedCodeCartItemModel *> *)cardItems totalAmount:(double)totalAmount orderId:(NSString *)orderId expiryMonth:(NSString *)expiryMonth expiryYear:(NSString *)expiryYear eci:(NSString *)eci avv:(NSString *)avv xid:(NSString *)xid method:(NSString *)method __attribute__((swift_name("init(cardItems:totalAmount:orderId:expiryMonth:expiryYear:eci:avv:xid:method:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (NSArray<SharedCodeCartItemModel *> *)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (int64_t)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (NSString *)component6 __attribute__((swift_name("component6()")));
-- (NSString *)component7 __attribute__((swift_name("component7()")));
-- (NSString *)component8 __attribute__((swift_name("component8()")));
-- (NSString *)component9 __attribute__((swift_name("component9()")));
-- (SharedCodeIPGPurchaseModel *)doCopyCardItems:(NSArray<SharedCodeCartItemModel *> *)cardItems totalAmount:(double)totalAmount orderId:(int64_t)orderId expiryMonth:(NSString *)expiryMonth expiryYear:(NSString *)expiryYear eci:(NSString *)eci avv:(NSString *)avv xid:(NSString *)xid method:(NSString *)method __attribute__((swift_name("doCopy(cardItems:totalAmount:orderId:expiryMonth:expiryYear:eci:avv:xid:method:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property NSString *avv __attribute__((swift_name("avv")));
 @property NSArray<SharedCodeCartItemModel *> *cardItems __attribute__((swift_name("cardItems")));
 @property NSString * _Nullable cardToken __attribute__((swift_name("cardToken")));
@@ -591,7 +612,7 @@ __attribute__((swift_name("IPGPurchaseModel")))
 @property NSString *expiryMonth __attribute__((swift_name("expiryMonth")));
 @property NSString *expiryYear __attribute__((swift_name("expiryYear")));
 @property NSString *method __attribute__((swift_name("method")));
-@property int64_t orderId __attribute__((swift_name("orderId")));
+@property NSString *orderId __attribute__((swift_name("orderId")));
 @property NSString * _Nullable pan __attribute__((swift_name("pan")));
 @property double totalAmount __attribute__((swift_name("totalAmount")));
 @property NSString *xid __attribute__((swift_name("xid")));
@@ -606,47 +627,46 @@ __attribute__((swift_name("IPGPurchaseModel.Companion")))
 - (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("IPGRefundModel")))
 @interface SharedCodeIPGRefundModel : SharedCodeBaseRequestModel
-- (instancetype)initWithTransactionRef:(NSString * _Nullable)transactionRef amount:(NSString * _Nullable)amount currency:(NSString * _Nullable)currency orderId:(NSString * _Nullable)orderId method:(NSString *)method __attribute__((swift_name("init(transactionRef:amount:currency:orderId:method:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTransactionRef:(NSString *)transactionRef amount:(NSString *)amount orderId:(NSString *)orderId method:(NSString *)method __attribute__((swift_name("init(transactionRef:amount:orderId:method:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (SharedCodeIPGRefundModel *)doCopyTransactionRef:(NSString * _Nullable)transactionRef amount:(NSString * _Nullable)amount currency:(NSString * _Nullable)currency orderId:(NSString * _Nullable)orderId method:(NSString *)method __attribute__((swift_name("doCopy(transactionRef:amount:currency:orderId:method:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSString * _Nullable amount __attribute__((swift_name("amount")));
-@property NSString * _Nullable currency __attribute__((swift_name("currency")));
+@property NSString *amount __attribute__((swift_name("amount")));
 @property NSString *method __attribute__((swift_name("method")));
-@property NSString * _Nullable orderId __attribute__((swift_name("orderId")));
-@property NSString * _Nullable transactionRef __attribute__((swift_name("transactionRef")));
+@property NSString *orderId __attribute__((swift_name("orderId")));
+@property NSString *transactionRef __attribute__((swift_name("transactionRef")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IPGRefundModel.Companion")))
+@interface SharedCodeIPGRefundModelCompanion : SharedCodeBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((swift_name("IPGStoreCardModel")))
 @interface SharedCodeIPGStoreCardModel : SharedCodeBaseRequestModel
-- (instancetype)initWithCardholderName:(NSString * _Nullable)cardholderName customName:(NSString * _Nullable)customName expiryMonth:(NSString * _Nullable)expiryMonth expiryYear:(NSString * _Nullable)expiryYear eci:(NSString * _Nullable)eci avv:(NSString * _Nullable)avv xid:(NSString * _Nullable)xid cardVerification:(NSString * _Nullable)cardVerification orderId:(int64_t)orderId amount:(NSString * _Nullable)amount method:(NSString *)method __attribute__((swift_name("init(cardholderName:customName:expiryMonth:expiryYear:eci:avv:xid:cardVerification:orderId:amount:method:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCardholderName:(NSString *)cardholderName customName:(NSString *)customName expiryMonth:(NSString *)expiryMonth expiryYear:(NSString *)expiryYear eci:(NSString *)eci avv:(NSString *)avv xid:(NSString *)xid cardVerification:(NSString *)cardVerification orderId:(int64_t)orderId amount:(NSString *)amount method:(NSString *)method __attribute__((swift_name("init(cardholderName:customName:expiryMonth:expiryYear:eci:avv:xid:cardVerification:orderId:amount:method:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-@property NSString * _Nullable amount __attribute__((swift_name("amount")));
-@property NSString * _Nullable avv __attribute__((swift_name("avv")));
-@property NSString * _Nullable cardVerification __attribute__((swift_name("cardVerification")));
-@property NSString * _Nullable cardholderName __attribute__((swift_name("cardholderName")));
+- (NSString *)toFormDataNativeConnector:(id<SharedCodeICNativeConnector>)nativeConnector __attribute__((swift_name("toFormData(nativeConnector:)")));
+@property NSString *amount __attribute__((swift_name("amount")));
+@property NSString *avv __attribute__((swift_name("avv")));
+@property NSString *cardVerification __attribute__((swift_name("cardVerification")));
+@property NSString *cardholderName __attribute__((swift_name("cardholderName")));
 @property NSString *currency __attribute__((swift_name("currency")));
-@property NSString * _Nullable customName __attribute__((swift_name("customName")));
+@property NSString *customName __attribute__((swift_name("customName")));
 @property NSString *cvc __attribute__((swift_name("cvc")));
-@property NSString * _Nullable eci __attribute__((swift_name("eci")));
-@property NSString * _Nullable expiryMonth __attribute__((swift_name("expiryMonth")));
-@property NSString * _Nullable expiryYear __attribute__((swift_name("expiryYear")));
+@property NSString *eci __attribute__((swift_name("eci")));
+@property NSString *expiryMonth __attribute__((swift_name("expiryMonth")));
+@property NSString *expiryYear __attribute__((swift_name("expiryYear")));
 @property NSString *method __attribute__((swift_name("method")));
 @property (readonly) int64_t orderId __attribute__((swift_name("orderId")));
 @property NSString *pan __attribute__((swift_name("pan")));
-@property NSString * _Nullable xid __attribute__((swift_name("xid")));
+@property NSString *xid __attribute__((swift_name("xid")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -658,37 +678,75 @@ __attribute__((swift_name("IPGStoreCardModel.Companion")))
 - (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("IPGStoredCardUpdate")))
-@interface SharedCodeIPGStoredCardUpdate : SharedCodeIPGStoreCardModel
-- (instancetype)initWithNote:(NSString * _Nullable)note token:(NSString * _Nullable)token expDate:(NSString * _Nullable)expDate method:(NSString *)method __attribute__((swift_name("init(note:token:expDate:method:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCardholderName:(NSString * _Nullable)cardholderName customName:(NSString * _Nullable)customName expiryMonth:(NSString * _Nullable)expiryMonth expiryYear:(NSString * _Nullable)expiryYear eci:(NSString * _Nullable)eci avv:(NSString * _Nullable)avv xid:(NSString * _Nullable)xid cardVerification:(NSString * _Nullable)cardVerification orderId:(int64_t)orderId amount:(NSString * _Nullable)amount method:(NSString *)method __attribute__((swift_name("init(cardholderName:customName:expiryMonth:expiryYear:eci:avv:xid:cardVerification:orderId:amount:method:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@interface SharedCodeIPGStoredCardUpdate : SharedCodeBaseRequestModel
+- (instancetype)initWithNote:(NSString *)note token:(NSString *)token method:(NSString *)method cardholderName:(NSString *)cardholderName customName:(NSString *)customName eci:(NSString *)eci avv:(NSString *)avv xid:(NSString *)xid cardVerification:(NSString *)cardVerification orderId:(int64_t)orderId amount:(NSString *)amount __attribute__((swift_name("init(note:token:method:cardholderName:customName:eci:avv:xid:cardVerification:orderId:amount:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property NSString *amount __attribute__((swift_name("amount")));
+@property NSString *avv __attribute__((swift_name("avv")));
+@property NSString *cardVerification __attribute__((swift_name("cardVerification")));
+@property NSString *cardholderName __attribute__((swift_name("cardholderName")));
+@property NSString *currency __attribute__((swift_name("currency")));
+@property NSString *customName __attribute__((swift_name("customName")));
+@property NSString *cvc __attribute__((swift_name("cvc")));
+@property NSString *eci __attribute__((swift_name("eci")));
+@property NSString *expDate __attribute__((swift_name("expDate")));
+@property NSString *method __attribute__((swift_name("method")));
+@property NSString *note __attribute__((swift_name("note")));
+@property (readonly) int64_t orderId __attribute__((swift_name("orderId")));
+@property NSString *pan __attribute__((swift_name("pan")));
+@property NSString *token __attribute__((swift_name("token")));
+@property NSString *xid __attribute__((swift_name("xid")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IPGStoredCardUpdate.Companion")))
+@interface SharedCodeIPGStoredCardUpdateCompanion : SharedCodeBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IPGTransactionStatusModel")))
+@interface SharedCodeIPGTransactionStatusModel : SharedCodeBaseRequestModel
+- (instancetype)initWithOrderId:(NSString * _Nullable)orderId method:(NSString *)method __attribute__((swift_name("init(orderId:method:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (SharedCodeIPGStoredCardUpdate *)doCopyNote:(NSString * _Nullable)note token:(NSString * _Nullable)token expDate:(NSString * _Nullable)expDate method:(NSString *)method __attribute__((swift_name("doCopy(note:token:expDate:method:)")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (SharedCodeIPGTransactionStatusModel *)doCopyOrderId:(NSString * _Nullable)orderId method:(NSString *)method __attribute__((swift_name("doCopy(orderId:method:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property NSString * _Nullable expDate __attribute__((swift_name("expDate")));
 @property NSString *method __attribute__((swift_name("method")));
-@property NSString * _Nullable note __attribute__((swift_name("note")));
-@property NSString * _Nullable token __attribute__((swift_name("token")));
+@property NSString * _Nullable orderId __attribute__((swift_name("orderId")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IPGTransactionStatusModel.Companion")))
+@interface SharedCodeIPGTransactionStatusModelCompanion : SharedCodeBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Icard")))
 @interface SharedCodeIcard : SharedCodeBase
-- (instancetype)initWithMid:(NSString * _Nullable)mid currency:(NSString * _Nullable)currency clientPrivateKey:(NSString * _Nullable)clientPrivateKey iCardPublicKey:(NSString * _Nullable)iCardPublicKey originator:(NSString * _Nullable)originator language:(NSString *)language keyIndex:(NSString *)keyIndex __attribute__((swift_name("init(mid:currency:clientPrivateKey:iCardPublicKey:originator:language:keyIndex:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMid:(NSString * _Nullable)mid currency:(NSString * _Nullable)currency clientPrivateKey:(NSString * _Nullable)clientPrivateKey iCardPublicKey:(NSString * _Nullable)iCardPublicKey isSandbox:(BOOL)isSandbox originator:(NSString * _Nullable)originator language:(NSString *)language keyIndex:(NSString *)keyIndex __attribute__((swift_name("init(mid:currency:clientPrivateKey:iCardPublicKey:isSandbox:originator:language:keyIndex:)"))) __attribute__((objc_designated_initializer));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
 - (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
 - (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (NSString *)component6 __attribute__((swift_name("component6()")));
+- (BOOL)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
 - (NSString *)component7 __attribute__((swift_name("component7()")));
-- (SharedCodeIcard *)doCopyMid:(NSString * _Nullable)mid currency:(NSString * _Nullable)currency clientPrivateKey:(NSString * _Nullable)clientPrivateKey iCardPublicKey:(NSString * _Nullable)iCardPublicKey originator:(NSString * _Nullable)originator language:(NSString *)language keyIndex:(NSString *)keyIndex __attribute__((swift_name("doCopy(mid:currency:clientPrivateKey:iCardPublicKey:originator:language:keyIndex:)")));
+- (NSString *)component8 __attribute__((swift_name("component8()")));
+- (SharedCodeIcard *)doCopyMid:(NSString * _Nullable)mid currency:(NSString * _Nullable)currency clientPrivateKey:(NSString * _Nullable)clientPrivateKey iCardPublicKey:(NSString * _Nullable)iCardPublicKey isSandbox:(BOOL)isSandbox originator:(NSString * _Nullable)originator language:(NSString *)language keyIndex:(NSString *)keyIndex __attribute__((swift_name("doCopy(mid:currency:clientPrivateKey:iCardPublicKey:isSandbox:originator:language:keyIndex:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
@@ -696,6 +754,7 @@ __attribute__((swift_name("Icard")))
 @property NSString * _Nullable clientPrivateKey __attribute__((swift_name("clientPrivateKey")));
 @property NSString * _Nullable currency __attribute__((swift_name("currency")));
 @property NSString * _Nullable iCardPublicKey __attribute__((swift_name("iCardPublicKey")));
+@property BOOL isSandbox __attribute__((swift_name("isSandbox")));
 @property NSString *keyIndex __attribute__((swift_name("keyIndex")));
 @property NSString *language __attribute__((swift_name("language")));
 @property NSString * _Nullable mid __attribute__((swift_name("mid")));
@@ -711,7 +770,6 @@ __attribute__((swift_name("Icard.Companion")))
 - (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StoredCardModel")))
 @interface SharedCodeStoredCardModel : SharedCodeBaseResponseModel <SharedCodeAndroidParcel>
 - (instancetype)initWithStatus:(int32_t)status statusMessage:(NSString *)statusMessage signature:(NSString *)signature __attribute__((swift_name("init(status:statusMessage:signature:)"))) __attribute__((objc_designated_initializer));
@@ -761,6 +819,37 @@ __attribute__((swift_name("TransactionRefModel.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TransactionStatusModel")))
+@interface SharedCodeTransactionStatusModel : SharedCodeBaseResponseModel
+- (instancetype)initWithTranStatus:(int32_t)tranStatus transactionReference:(NSString *)transactionReference status:(int32_t)status statusMessage:(NSString *)statusMessage signature:(NSString *)signature __attribute__((swift_name("init(tranStatus:transactionReference:status:statusMessage:signature:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (int32_t)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component3 __attribute__((swift_name("component3()")));
+- (NSString *)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (SharedCodeTransactionStatusModel *)doCopyTranStatus:(int32_t)tranStatus transactionReference:(NSString *)transactionReference status:(int32_t)status statusMessage:(NSString *)statusMessage signature:(NSString *)signature __attribute__((swift_name("doCopy(tranStatus:transactionReference:status:statusMessage:signature:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *signature __attribute__((swift_name("signature")));
+@property int32_t status __attribute__((swift_name("status")));
+@property NSString *statusMessage __attribute__((swift_name("statusMessage")));
+@property int32_t tranStatus __attribute__((swift_name("tranStatus")));
+@property NSString *transactionReference __attribute__((swift_name("transactionReference")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TransactionStatusModel.Companion")))
+@interface SharedCodeTransactionStatusModelCompanion : SharedCodeBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<SharedCodeKotlinx_serialization_runtimeKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ModuleDIKt")))
 @interface SharedCodeModuleDIKt : SharedCodeBase
 + (SharedCodeKodein_diDIModule *)sharedModule __attribute__((swift_name("sharedModule()")));
@@ -771,6 +860,7 @@ __attribute__((swift_name("BaseExtKt")))
 @interface SharedCodeBaseExtKt : SharedCodeBase
 + (NSString *)asFormData:(id)receiver ICNativeConnector:(id<SharedCodeICNativeConnector>)ICNativeConnector __attribute__((swift_name("asFormData(_:ICNativeConnector:)")));
 + (id<SharedCodeKtor_httpParameters>)asParameters:(id)receiver ICNativeConnector:(id<SharedCodeICNativeConnector> _Nullable)ICNativeConnector __attribute__((swift_name("asParameters(_:ICNativeConnector:)")));
++ (NSString *)asUrlEncodedParameters:(id)receiver ICNativeConnector:(id<SharedCodeICNativeConnector> _Nullable)ICNativeConnector __attribute__((swift_name("asUrlEncodedParameters(_:ICNativeConnector:)")));
 + (NSString *)encodeUrlUtf8:(NSString *)receiver __attribute__((swift_name("encodeUrlUtf8(_:)")));
 @end;
 
@@ -804,6 +894,23 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 @property (readonly) SharedCodeKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
 @property (readonly) SharedCodeKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
 @property (readonly) SharedCodeKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+@end;
+
+__attribute__((swift_name("Kodein_diDIAware")))
+@protocol SharedCodeKodein_diDIAware
+@required
+@property (readonly) id<SharedCodeKodein_diDI> di __attribute__((swift_name("di")));
+@property (readonly) id<SharedCodeKodein_diDIContext> diContext __attribute__((swift_name("diContext")));
+@property (readonly) SharedCodeKodein_diDITrigger * _Nullable diTrigger __attribute__((swift_name("diTrigger")));
+@property (readonly) id<SharedCodeKodein_diDI> kodein __attribute__((swift_name("kodein"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
+@property (readonly) id<SharedCodeKodein_diDIContext> kodeinContext __attribute__((swift_name("kodeinContext"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
+@property (readonly) SharedCodeKodein_diDITrigger * _Nullable kodeinTrigger __attribute__((swift_name("kodeinTrigger"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
+@end;
+
+__attribute__((swift_name("Kodein_diDI")))
+@protocol SharedCodeKodein_diDI <SharedCodeKodein_diDIAware>
+@required
+@property (readonly) id<SharedCodeKodein_diDIContainer> container __attribute__((swift_name("container")));
 @end;
 
 __attribute__((swift_name("KotlinCoroutineContext")))
@@ -1060,6 +1167,34 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 - (instancetype)initWithPhases:(SharedCodeKotlinArray *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end;
 
+__attribute__((swift_name("Kodein_diDIContainer")))
+@protocol SharedCodeKodein_diDIContainer
+@required
+- (NSArray<id (^)(id _Nullable)> *)allFactoriesKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("allFactories(key:context:overrideLevel:)")));
+- (NSArray<id (^)(void)> *)allProvidersKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("allProviders(key:context:overrideLevel:)")));
+- (id (^)(id _Nullable))factoryKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("factory(key:context:overrideLevel:)")));
+- (id (^ _Nullable)(id _Nullable))factoryOrNullKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("factoryOrNull(key:context:overrideLevel:)")));
+- (id (^)(void))providerKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("provider(key:context:overrideLevel:)")));
+- (id (^ _Nullable)(void))providerOrNullKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("providerOrNull(key:context:overrideLevel:)")));
+@property (readonly) id<SharedCodeKodein_diDITree> tree __attribute__((swift_name("tree")));
+@end;
+
+__attribute__((swift_name("Kodein_diDIContext")))
+@protocol SharedCodeKodein_diDIContext
+@required
+@property (readonly) SharedCodeKodein_typeTypeToken *type __attribute__((swift_name("type")));
+@property (readonly) id value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kodein_diDITrigger")))
+@interface SharedCodeKodein_diDITrigger : SharedCodeBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)trigger __attribute__((swift_name("trigger()")));
+@property (readonly) NSMutableArray<id<SharedCodeKotlinLazy>> *properties __attribute__((swift_name("properties")));
+@end;
+
 __attribute__((swift_name("KotlinCoroutineContextKey")))
 @protocol SharedCodeKotlinCoroutineContextKey
 @required
@@ -1287,6 +1422,66 @@ __attribute__((swift_name("KotlinSuspendFunction2")))
 @required
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kodein_diDIKey")))
+@interface SharedCodeKodein_diDIKey : SharedCodeBase
+- (instancetype)initWithContextType:(SharedCodeKodein_typeTypeToken *)contextType argType:(SharedCodeKodein_typeTypeToken *)argType type:(SharedCodeKodein_typeTypeToken *)type tag:(id _Nullable)tag __attribute__((swift_name("init(contextType:argType:type:tag:)"))) __attribute__((objc_designated_initializer));
+- (SharedCodeKodein_typeTypeToken *)component1 __attribute__((swift_name("component1()")));
+- (SharedCodeKodein_typeTypeToken *)component2 __attribute__((swift_name("component2()")));
+- (SharedCodeKodein_typeTypeToken *)component3 __attribute__((swift_name("component3()")));
+- (id _Nullable)component4 __attribute__((swift_name("component4()")));
+- (SharedCodeKodein_diDIKey *)doCopyContextType:(SharedCodeKodein_typeTypeToken *)contextType argType:(SharedCodeKodein_typeTypeToken *)argType type:(SharedCodeKodein_typeTypeToken *)type tag:(id _Nullable)tag __attribute__((swift_name("doCopy(contextType:argType:type:tag:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedCodeKodein_typeTypeToken *argType __attribute__((swift_name("argType")));
+@property (readonly) NSString *bindDescription __attribute__((swift_name("bindDescription")));
+@property (readonly) NSString *bindFullDescription __attribute__((swift_name("bindFullDescription")));
+@property (readonly) SharedCodeKodein_typeTypeToken *contextType __attribute__((swift_name("contextType")));
+@property (readonly, getter=description_) NSString *description __attribute__((swift_name("description")));
+@property (readonly) NSString *fullDescription __attribute__((swift_name("fullDescription")));
+@property (readonly) NSString *internalDescription __attribute__((swift_name("internalDescription")));
+@property (readonly) id _Nullable tag __attribute__((swift_name("tag")));
+@property (readonly) SharedCodeKodein_typeTypeToken *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((swift_name("Kodein_diDITree")))
+@protocol SharedCodeKodein_diDITree
+@required
+- (NSArray<SharedCodeKotlinTriple *> *)findKey:(SharedCodeKodein_diDIKey *)key overrideLevel:(int32_t)overrideLevel all:(BOOL)all __attribute__((swift_name("find(key:overrideLevel:all:)")));
+- (NSArray<SharedCodeKotlinTriple *> *)findSearch:(SharedCodeKodein_diSearchSpecs *)search __attribute__((swift_name("find(search:)")));
+- (SharedCodeKotlinTriple * _Nullable)getKey__:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("get(key__:)")));
+@property (readonly) NSDictionary<SharedCodeKodein_diDIKey *, NSArray<SharedCodeKodein_diDIDefinition *> *> *bindings __attribute__((swift_name("bindings")));
+@property (readonly) NSArray<id<SharedCodeKodein_diExternalSource>> *externalSources __attribute__((swift_name("externalSources")));
+@property (readonly) NSArray<id<SharedCodeKodein_diContextTranslator>> *registeredTranslators __attribute__((swift_name("registeredTranslators")));
+@end;
+
+__attribute__((swift_name("Kodein_typeTypeToken")))
+@interface SharedCodeKodein_typeTypeToken : SharedCodeBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (SharedCodeKotlinArray *)getGenericParameters __attribute__((swift_name("getGenericParameters()")));
+- (SharedCodeKodein_typeTypeToken * _Nullable)getRaw __attribute__((swift_name("getRaw()")));
+- (NSArray<SharedCodeKodein_typeTypeToken *> *)getSuper __attribute__((swift_name("getSuper()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)isAssignableFromTypeToken:(SharedCodeKodein_typeTypeToken *)typeToken __attribute__((swift_name("isAssignableFrom(typeToken:)")));
+- (BOOL)isGeneric __attribute__((swift_name("isGeneric()")));
+- (BOOL)isWildcard __attribute__((swift_name("isWildcard()")));
+- (NSString *)qualifiedDispString __attribute__((swift_name("qualifiedDispString()")));
+- (NSString *)qualifiedErasedDispString __attribute__((swift_name("qualifiedErasedDispString()")));
+- (NSString *)simpleDispString __attribute__((swift_name("simpleDispString()")));
+- (NSString *)simpleErasedDispString __attribute__((swift_name("simpleErasedDispString()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("KotlinLazy")))
+@protocol SharedCodeKotlinLazy
+@required
+- (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
 __attribute__((swift_name("KotlinIterator")))
 @protocol SharedCodeKotlinIterator
 @required
@@ -1433,25 +1628,6 @@ __attribute__((swift_name("Kodein_diDIBuilderTypeBinder")))
 - (void)withBinding:(id<SharedCodeKodein_diDIBinding>)binding __attribute__((swift_name("with(binding:)")));
 @end;
 
-__attribute__((swift_name("Kodein_typeTypeToken")))
-@interface SharedCodeKodein_typeTypeToken : SharedCodeBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (SharedCodeKotlinArray *)getGenericParameters __attribute__((swift_name("getGenericParameters()")));
-- (SharedCodeKodein_typeTypeToken * _Nullable)getRaw __attribute__((swift_name("getRaw()")));
-- (NSArray<SharedCodeKodein_typeTypeToken *> *)getSuper __attribute__((swift_name("getSuper()")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)isAssignableFromTypeToken:(SharedCodeKodein_typeTypeToken *)typeToken __attribute__((swift_name("isAssignableFrom(typeToken:)")));
-- (BOOL)isGeneric __attribute__((swift_name("isGeneric()")));
-- (BOOL)isWildcard __attribute__((swift_name("isWildcard()")));
-- (NSString *)qualifiedDispString __attribute__((swift_name("qualifiedDispString()")));
-- (NSString *)qualifiedErasedDispString __attribute__((swift_name("qualifiedErasedDispString()")));
-- (NSString *)simpleDispString __attribute__((swift_name("simpleDispString()")));
-- (NSString *)simpleErasedDispString __attribute__((swift_name("simpleErasedDispString()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
 __attribute__((swift_name("Kodein_diContextTranslator")))
 @protocol SharedCodeKodein_diContextTranslator
 @required
@@ -1543,174 +1719,6 @@ __attribute__((swift_name("Ktor_httpUrl")))
 @property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
 @end;
 
-__attribute__((swift_name("Kodein_diBinding")))
-@protocol SharedCodeKodein_diBinding
-@required
-- (id (^)(id _Nullable))getFactoryDi:(id<SharedCodeKodein_diBindingDI>)di key:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("getFactory(di:key:)")));
-@end;
-
-__attribute__((swift_name("Kodein_diDIBinding")))
-@protocol SharedCodeKodein_diDIBinding <SharedCodeKodein_diBinding>
-@required
-- (NSString *)factoryFullName __attribute__((swift_name("factoryFullName()")));
-- (NSString *)factoryName __attribute__((swift_name("factoryName()")));
-@property (readonly) SharedCodeKodein_typeTypeToken *argType __attribute__((swift_name("argType")));
-@property (readonly) SharedCodeKodein_typeTypeToken *contextType __attribute__((swift_name("contextType")));
-@property (readonly) id<SharedCodeKodein_diDIBindingCopier> _Nullable copier __attribute__((swift_name("copier")));
-@property (readonly) SharedCodeKodein_typeTypeToken *createdType __attribute__((swift_name("createdType")));
-@property (readonly, getter=description_) NSString *description __attribute__((swift_name("description")));
-@property (readonly) NSString *fullDescription __attribute__((swift_name("fullDescription")));
-@property (readonly) id<SharedCodeKodein_diScope> _Nullable scope __attribute__((swift_name("scope")));
-@property (readonly) BOOL supportSubTypes __attribute__((swift_name("supportSubTypes")));
-@end;
-
-__attribute__((swift_name("Kodein_diDIContext")))
-@protocol SharedCodeKodein_diDIContext
-@required
-@property (readonly) SharedCodeKodein_typeTypeToken *type __attribute__((swift_name("type")));
-@property (readonly) id value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((swift_name("Kodein_diDIContainer")))
-@protocol SharedCodeKodein_diDIContainer
-@required
-- (NSArray<id (^)(id _Nullable)> *)allFactoriesKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("allFactories(key:context:overrideLevel:)")));
-- (NSArray<id (^)(void)> *)allProvidersKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("allProviders(key:context:overrideLevel:)")));
-- (id (^)(id _Nullable))factoryKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("factory(key:context:overrideLevel:)")));
-- (id (^ _Nullable)(id _Nullable))factoryOrNullKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("factoryOrNull(key:context:overrideLevel:)")));
-- (id (^)(void))providerKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("provider(key:context:overrideLevel:)")));
-- (id (^ _Nullable)(void))providerOrNullKey:(SharedCodeKodein_diDIKey *)key context:(id)context overrideLevel:(int32_t)overrideLevel __attribute__((swift_name("providerOrNull(key:context:overrideLevel:)")));
-@property (readonly) id<SharedCodeKodein_diDITree> tree __attribute__((swift_name("tree")));
-@end;
-
-__attribute__((swift_name("Kodein_diDIAware")))
-@protocol SharedCodeKodein_diDIAware
-@required
-@property (readonly) id<SharedCodeKodein_diDI> di __attribute__((swift_name("di")));
-@property (readonly) id<SharedCodeKodein_diDIContext> diContext __attribute__((swift_name("diContext")));
-@property (readonly) SharedCodeKodein_diDITrigger * _Nullable diTrigger __attribute__((swift_name("diTrigger")));
-@property (readonly) id<SharedCodeKodein_diDI> kodein __attribute__((swift_name("kodein"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
-@property (readonly) id<SharedCodeKodein_diDIContext> kodeinContext __attribute__((swift_name("kodeinContext"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
-@property (readonly) SharedCodeKodein_diDITrigger * _Nullable kodeinTrigger __attribute__((swift_name("kodeinTrigger"))) __attribute__((unavailable("!!! THIS HAS BEEN REMOVED FROM 7.0 !!! As soon as you are using _Kodein-DI 7.x_, the old API named _Kodein_ API is broken. we highly recommend that you take some time to move from it to the new API with _DI_ named objects.")));
-@end;
-
-__attribute__((swift_name("Kodein_diDI")))
-@protocol SharedCodeKodein_diDI <SharedCodeKodein_diDIAware>
-@required
-@property (readonly) id<SharedCodeKodein_diDIContainer> container __attribute__((swift_name("container")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kodein_diDIKey")))
-@interface SharedCodeKodein_diDIKey : SharedCodeBase
-- (instancetype)initWithContextType:(SharedCodeKodein_typeTypeToken *)contextType argType:(SharedCodeKodein_typeTypeToken *)argType type:(SharedCodeKodein_typeTypeToken *)type tag:(id _Nullable)tag __attribute__((swift_name("init(contextType:argType:type:tag:)"))) __attribute__((objc_designated_initializer));
-- (SharedCodeKodein_typeTypeToken *)component1 __attribute__((swift_name("component1()")));
-- (SharedCodeKodein_typeTypeToken *)component2 __attribute__((swift_name("component2()")));
-- (SharedCodeKodein_typeTypeToken *)component3 __attribute__((swift_name("component3()")));
-- (id _Nullable)component4 __attribute__((swift_name("component4()")));
-- (SharedCodeKodein_diDIKey *)doCopyContextType:(SharedCodeKodein_typeTypeToken *)contextType argType:(SharedCodeKodein_typeTypeToken *)argType type:(SharedCodeKodein_typeTypeToken *)type tag:(id _Nullable)tag __attribute__((swift_name("doCopy(contextType:argType:type:tag:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SharedCodeKodein_typeTypeToken *argType __attribute__((swift_name("argType")));
-@property (readonly) NSString *bindDescription __attribute__((swift_name("bindDescription")));
-@property (readonly) NSString *bindFullDescription __attribute__((swift_name("bindFullDescription")));
-@property (readonly) SharedCodeKodein_typeTypeToken *contextType __attribute__((swift_name("contextType")));
-@property (readonly, getter=description_) NSString *description __attribute__((swift_name("description")));
-@property (readonly) NSString *fullDescription __attribute__((swift_name("fullDescription")));
-@property (readonly) NSString *internalDescription __attribute__((swift_name("internalDescription")));
-@property (readonly) id _Nullable tag __attribute__((swift_name("tag")));
-@property (readonly) SharedCodeKodein_typeTypeToken *type __attribute__((swift_name("type")));
-@end;
-
-__attribute__((swift_name("Kodein_diScopeCloseable")))
-@protocol SharedCodeKodein_diScopeCloseable
-@required
-- (void)close __attribute__((swift_name("close()")));
-@end;
-
-__attribute__((swift_name("Kodein_diScopeRegistry")))
-@interface SharedCodeKodein_diScopeRegistry : SharedCodeBase <SharedCodeKodein_diScopeCloseable>
-- (void)clear __attribute__((swift_name("clear()")));
-- (void)close __attribute__((swift_name("close()")));
-- (id)getOrCreateKey:(id)key sync:(BOOL)sync creator:(SharedCodeKodein_diReference *(^)(void))creator __attribute__((swift_name("getOrCreate(key:sync:creator:)")));
-- (id _Nullable (^ _Nullable)(void))getOrNullKey_:(id)key __attribute__((swift_name("getOrNull(key_:)")));
-- (void)removeKey_:(id)key __attribute__((swift_name("remove(key_:)")));
-- (id)values __attribute__((swift_name("values()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface SharedCodeKtor_httpURLProtocol : SharedCodeBase
-- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (int32_t)component2 __attribute__((swift_name("component2()")));
-- (SharedCodeKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end;
-
-__attribute__((swift_name("Kodein_diDIBindingCopier")))
-@protocol SharedCodeKodein_diDIBindingCopier
-@required
-- (id<SharedCodeKodein_diDIBinding>)doCopyBuilder:(id<SharedCodeKodein_diDIContainerBuilder>)builder __attribute__((swift_name("doCopy(builder:)")));
-@end;
-
-__attribute__((swift_name("Kodein_diWithContext")))
-@protocol SharedCodeKodein_diWithContext
-@required
-@property (readonly) id context __attribute__((swift_name("context")));
-@end;
-
-__attribute__((swift_name("Kodein_diSimpleBindingDI")))
-@protocol SharedCodeKodein_diSimpleBindingDI <SharedCodeKodein_diDirectDI, SharedCodeKodein_diWithContext>
-@required
-- (id (^)(id _Nullable))overriddenFactory __attribute__((swift_name("overriddenFactory()")));
-- (id (^ _Nullable)(id _Nullable))overriddenFactoryOrNull __attribute__((swift_name("overriddenFactoryOrNull()")));
-@end;
-
-__attribute__((swift_name("Kodein_diBindingDI")))
-@protocol SharedCodeKodein_diBindingDI <SharedCodeKodein_diSimpleBindingDI>
-@required
-@end;
-
-__attribute__((swift_name("Kodein_diDITree")))
-@protocol SharedCodeKodein_diDITree
-@required
-- (NSArray<SharedCodeKotlinTriple *> *)findKey:(SharedCodeKodein_diDIKey *)key overrideLevel:(int32_t)overrideLevel all:(BOOL)all __attribute__((swift_name("find(key:overrideLevel:all:)")));
-- (NSArray<SharedCodeKotlinTriple *> *)findSearch:(SharedCodeKodein_diSearchSpecs *)search __attribute__((swift_name("find(search:)")));
-- (SharedCodeKotlinTriple * _Nullable)getKey__:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("get(key__:)")));
-@property (readonly) NSDictionary<SharedCodeKodein_diDIKey *, NSArray<SharedCodeKodein_diDIDefinition *> *> *bindings __attribute__((swift_name("bindings")));
-@property (readonly) NSArray<id<SharedCodeKodein_diExternalSource>> *externalSources __attribute__((swift_name("externalSources")));
-@property (readonly) NSArray<id<SharedCodeKodein_diContextTranslator>> *registeredTranslators __attribute__((swift_name("registeredTranslators")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kodein_diDITrigger")))
-@interface SharedCodeKodein_diDITrigger : SharedCodeBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)trigger __attribute__((swift_name("trigger()")));
-@property (readonly) NSMutableArray<id<SharedCodeKotlinLazy>> *properties __attribute__((swift_name("properties")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kodein_diReference")))
-@interface SharedCodeKodein_diReference : SharedCodeBase
-- (instancetype)initWithCurrent:(id)current next:(id _Nullable (^)(void))next __attribute__((swift_name("init(current:next:)"))) __attribute__((objc_designated_initializer));
-- (id)component1 __attribute__((swift_name("component1()")));
-- (id _Nullable (^)(void))component2 __attribute__((swift_name("component2()")));
-- (SharedCodeKodein_diReference *)doCopyCurrent:(id)current next:(id _Nullable (^)(void))next __attribute__((swift_name("doCopy(current:next:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id current __attribute__((swift_name("current")));
-@property (readonly) id _Nullable (^next)(void) __attribute__((swift_name("next")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinTriple")))
 @interface SharedCodeKotlinTriple : SharedCodeBase
@@ -1755,14 +1763,96 @@ __attribute__((swift_name("Kodein_diDIDefinition")))
 __attribute__((swift_name("Kodein_diExternalSource")))
 @protocol SharedCodeKodein_diExternalSource
 @required
-- (id (^ _Nullable)(id _Nullable))getFactoryDi:(id<SharedCodeKodein_diBindingDI>)di key_:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("getFactory(di:key_:)")));
+- (id (^ _Nullable)(id _Nullable))getFactoryDi:(id<SharedCodeKodein_diBindingDI>)di key:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("getFactory(di:key:)")));
 @end;
 
-__attribute__((swift_name("KotlinLazy")))
-@protocol SharedCodeKotlinLazy
+__attribute__((swift_name("Kodein_diBinding")))
+@protocol SharedCodeKodein_diBinding
 @required
-- (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+- (id (^)(id _Nullable))getFactoryDi:(id<SharedCodeKodein_diBindingDI>)di key_:(SharedCodeKodein_diDIKey *)key __attribute__((swift_name("getFactory(di:key_:)")));
+@end;
+
+__attribute__((swift_name("Kodein_diDIBinding")))
+@protocol SharedCodeKodein_diDIBinding <SharedCodeKodein_diBinding>
+@required
+- (NSString *)factoryFullName __attribute__((swift_name("factoryFullName()")));
+- (NSString *)factoryName __attribute__((swift_name("factoryName()")));
+@property (readonly) SharedCodeKodein_typeTypeToken *argType __attribute__((swift_name("argType")));
+@property (readonly) SharedCodeKodein_typeTypeToken *contextType __attribute__((swift_name("contextType")));
+@property (readonly) id<SharedCodeKodein_diDIBindingCopier> _Nullable copier __attribute__((swift_name("copier")));
+@property (readonly) SharedCodeKodein_typeTypeToken *createdType __attribute__((swift_name("createdType")));
+@property (readonly, getter=description_) NSString *description __attribute__((swift_name("description")));
+@property (readonly) NSString *fullDescription __attribute__((swift_name("fullDescription")));
+@property (readonly) id<SharedCodeKodein_diScope> _Nullable scope __attribute__((swift_name("scope")));
+@property (readonly) BOOL supportSubTypes __attribute__((swift_name("supportSubTypes")));
+@end;
+
+__attribute__((swift_name("Kodein_diScopeCloseable")))
+@protocol SharedCodeKodein_diScopeCloseable
+@required
+- (void)close __attribute__((swift_name("close()")));
+@end;
+
+__attribute__((swift_name("Kodein_diScopeRegistry")))
+@interface SharedCodeKodein_diScopeRegistry : SharedCodeBase <SharedCodeKodein_diScopeCloseable>
+- (void)clear __attribute__((swift_name("clear()")));
+- (void)close __attribute__((swift_name("close()")));
+- (id)getOrCreateKey:(id)key sync:(BOOL)sync creator:(SharedCodeKodein_diReference *(^)(void))creator __attribute__((swift_name("getOrCreate(key:sync:creator:)")));
+- (id _Nullable (^ _Nullable)(void))getOrNullKey_:(id)key __attribute__((swift_name("getOrNull(key_:)")));
+- (void)removeKey_:(id)key __attribute__((swift_name("remove(key_:)")));
+- (id)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface SharedCodeKtor_httpURLProtocol : SharedCodeBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (int32_t)component2 __attribute__((swift_name("component2()")));
+- (SharedCodeKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("Kodein_diWithContext")))
+@protocol SharedCodeKodein_diWithContext
+@required
+@property (readonly) id context __attribute__((swift_name("context")));
+@end;
+
+__attribute__((swift_name("Kodein_diSimpleBindingDI")))
+@protocol SharedCodeKodein_diSimpleBindingDI <SharedCodeKodein_diDirectDI, SharedCodeKodein_diWithContext>
+@required
+- (id (^)(id _Nullable))overriddenFactory __attribute__((swift_name("overriddenFactory()")));
+- (id (^ _Nullable)(id _Nullable))overriddenFactoryOrNull __attribute__((swift_name("overriddenFactoryOrNull()")));
+@end;
+
+__attribute__((swift_name("Kodein_diBindingDI")))
+@protocol SharedCodeKodein_diBindingDI <SharedCodeKodein_diSimpleBindingDI>
+@required
+@end;
+
+__attribute__((swift_name("Kodein_diDIBindingCopier")))
+@protocol SharedCodeKodein_diDIBindingCopier
+@required
+- (id<SharedCodeKodein_diDIBinding>)doCopyBuilder:(id<SharedCodeKodein_diDIContainerBuilder>)builder __attribute__((swift_name("doCopy(builder:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kodein_diReference")))
+@interface SharedCodeKodein_diReference : SharedCodeBase
+- (instancetype)initWithCurrent:(id)current next:(id _Nullable (^)(void))next __attribute__((swift_name("init(current:next:)"))) __attribute__((objc_designated_initializer));
+- (id)component1 __attribute__((swift_name("component1()")));
+- (id _Nullable (^)(void))component2 __attribute__((swift_name("component2()")));
+- (SharedCodeKodein_diReference *)doCopyCurrent:(id)current next:(id _Nullable (^)(void))next __attribute__((swift_name("doCopy(current:next:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id current __attribute__((swift_name("current")));
+@property (readonly) id _Nullable (^next)(void) __attribute__((swift_name("next")));
 @end;
 
 #pragma clang diagnostic pop
