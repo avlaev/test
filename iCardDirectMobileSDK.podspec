@@ -5,13 +5,13 @@ Pod::Spec.new do |s|
     s.homepage          = 'http://icard.com/'
 
     s.author            = { 'Name' => 'support@icard.com' }
-    s.license           = { :type => '', :file => 'LICENSE' }
+    s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/avlaev/test/raw/master/iCardDirectMobileSDK.zip' }
 
     s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = 'iCardDirectMobileSDK/iCardDirectMobileSDK.framework'
+    s.ios.vendored_frameworks = 'iCardDirectMobileSDK.framework'
     #s.exclude_files = "Classes/Exclude"
 
 end
