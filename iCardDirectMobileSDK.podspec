@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/avlaev/test/raw/master/iCardDirectMobileSDK.zip' }
 
-    s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = 'iCardDirectMobileSDK.framework'
+    s.ios.deployment_target = '11.0'
+    s.ios.vendored_frameworks = 'iCardDirectMobileSDK.framework', 'SharedCode.framework'
     #s.exclude_files = "Classes/Exclude"
 
 end
