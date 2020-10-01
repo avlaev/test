@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/avlaev/test/raw/master/iCardDirectMobileSDK.zip' }
+    s.source            = { :http => 'https://github.com/avlaev/test/raw/master/iCardDirectMobileSDK.zip', :branch => 'mater' }
 
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'iCardDirectMobileSDK.framework', 'SharedCode.framework'
